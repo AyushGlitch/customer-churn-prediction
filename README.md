@@ -56,25 +56,6 @@ Jupyter Notebook is an interactive web-based tool that allows for creating and s
 
 Scikit-Learn is a machine learning library in Python that provides a wide range of tools for various machine learning tasks such as classification, regression, clustering, model selection, and more.
 
-* **Random Forest Classifier**
-
-Random Forest is an ensemble learning algorithm that combines multiple decision trees to create a more robust and accurate model. It's used for both classification and regression tasks.
-
-
-* **Variance Inflation Factor (VIF)**
-
-The VIF is used to detect multicollinearity among predictor variables in a regression analysis. It helps identify redundant variables that might negatively impact model performance.
-
-
-* **Model Evaluation Metrics**
-
-Various metrics like accuracy, precision, recall, F1-score, confusion matrix, ROC curve, and AUC (Area Under Curve) are used to assess the performance of the machine learning models.
-
-
-* **Logistic Regression, Decision Tree, K-Nearest Neighbors (KNN), Support Vector Machine (SVM), Naive Bayes, AdaBoost, Gradient Boosting, XGBoost**
-
-These are different classification algorithms used to build predictive models based on the given data. Each algorithm has its own strengths and weaknesses.
-
 
 * **TensorFlow and Keras**
 
@@ -89,30 +70,6 @@ Neural networks are used to model complex relationships in the data. They consis
 * **StandardScaler**
 
 StandardScaler is used for standardizing features by removing the mean and scaling to unit variance. It's an important preprocessing step in machine learning to ensure features are on similar scales.
-
-
-* **Principal Component Analysis (PCA)**
-
-PCA is a dimensionality reduction technique that transforms the data into a new coordinate system while preserving as much variance as possible. It's useful for reducing the complexity of high-dimensional data.
-
-
-* **GridSearchCV**
-
-GridSearchCV is used for hyperparameter tuning, where a set of hyperparameters are tested exhaustively to find the combination that produces the best performance for the model.
-
-
-* **Cross-Validation**
-
-Cross-validation is a technique used to evaluate the generalization performance of a model by splitting the dataset into multiple subsets (folds) for training and testing.
-
-
-* **Early Stopping**
-
-Early stopping is a regularization technique used in training neural networks. It stops training when the model's performance on a validation set starts deteriorating, preventing overfitting.
-
-* **ModelCheckpoint**
-
-ModelCheckpoint is a callback in Keras that saves the model's weights during training. It helps to save the best model based on a specific metric, allowing you to restore the model later.
 
 
 * **ROC Curve and AUC (Receiver Operating Characteristic - Area Under Curve)**
